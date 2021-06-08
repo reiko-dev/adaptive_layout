@@ -1,0 +1,9 @@
+Before start developing make a design of your app on the smallest screen size and on the biggest one. After that you can start coding.
+
+The scaffold is needed when we are using the complete screen. Like when we want to change the AppBar or use a full screen on differents places on the app.
+
+Define breakpoints for your design, like: 
+if(x)
+    return WideLayout();
+else
+    return NarrowLayout();
